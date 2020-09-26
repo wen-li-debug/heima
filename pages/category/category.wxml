@@ -1,0 +1,11 @@
+<!--pages/category/category.wxml-->
+ <view class="cates">
+  <w-searchInput />
+  <view class="cate_container">
+    <w-left-category categoryTitle="{{categoryTitle}}"
+                   bind:hanleClick="hanleClick" 
+                   currentIndex="{{currentIndex}}"/>
+  <w-right-category categoryList="{{categoryList}}" 
+  l                 scrollTop="{{scrollTop}}"/>
+  </view>
+ </view>

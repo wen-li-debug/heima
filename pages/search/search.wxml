@@ -1,0 +1,12 @@
+<!--pages/search/search.wxml-->
+<view class="search">
+  <view class="search-header">
+    <input type="text" placeholder="请输入内容" class="input" bind:input="inputClick"></input>
+    <button class="btn" size="mini">取消</button>
+  </view>
+  <block wx:for="{{goodsDetail}}" wx:key="goods_id">
+    <view class="search-content">
+      <view class="item" >{{item.goods_name}}</view>
+    </view>
+  </block>
+</view>

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "用户信息",
+  "usingComponents": {
+    "w-header-tap": "./childcpn/header-tap/header-tap",
+    "w-container": "./childcpn/container/container"
+  }
+}

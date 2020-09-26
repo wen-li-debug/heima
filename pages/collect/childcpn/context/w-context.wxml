@@ -1,0 +1,6 @@
+<!--pages/collect/childcpn/context/w-context.wxml-->
+<view class="context">
+  <view class="item">全部</view>
+  <view class="item">正在热卖</view>
+  <view class="item">即将上线</view>
+</view>

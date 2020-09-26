@@ -1,0 +1,19 @@
+<!--pages/goodDetail/w-detail/w-detail.wxml-->
+<view class="detail">
+  <view class="detail-content">
+    <view class="price">￥{{goodsDetail.price}}</view>
+    <view class="other">
+      <view class="name">{{goodsDetail.goods_name}}</view>
+      <view class="collect-item" bind:tap="collectClick">
+        <text class="iconfont {{isCollect ? 'icon-shoucang1' : 'icon-shoucang'}}"></text>
+        <view class="collect">收藏</view>
+      </view>
+    </view>
+  </view>
+  <view class="goods_info">
+    <view class="goods_img">图片详情</view>
+    <view class="goods_text">
+      <rich-text nodes="{{goodsDetail.goods_introduce}}"></rich-text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,34 @@
+/* pages/goodList/childcpn/goodDetail.wxss */
+
+.goodDetail{
+  padding: 6rpx 0; 
+}
+.goodDetail-item{
+  padding: 10rpx 0; 
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+.goodDetail-item .goodDetail-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+}
+.goodDetail-item .goodDetail-img image{
+  width: 70%;
+}
+.goodDetail-item .goodDetail-content{
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.title{
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.price{
+  color: var(--backgroundColor)
+}

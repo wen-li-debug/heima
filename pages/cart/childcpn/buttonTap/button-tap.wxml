@@ -1,0 +1,12 @@
+<!--pages/cart/childcpn/buttomTap/button-tap.wxml-->
+<view class="address" wx:if="{{!address.userName}}">
+  <button type="primary" plain bind:tap="addressClick">获取收货地址</button>
+</view>
+
+<view wx:else class="address-info">
+  <view class="address-other">
+    <view class="address-name">{{address.userName}}</view>
+    <view class="address-all">{{address.all}}</view>
+  </view>
+  <view class="address-tel">{{address.telNumber}}</view>
+</view>

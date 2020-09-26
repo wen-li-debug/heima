@@ -1,0 +1,22 @@
+/* pages/cart/childcpn/buttomTap/button-tap.wxss */
+.address{
+  padding: 20rpx 0;
+  border-bottom: 2rpx solid #666;
+}
+.address button {
+  width: 60%;
+}
+.address-info{
+  display: flex;
+  padding: 10rpx;
+  border-bottom: 2rpx solid #666;
+}
+.address-info .address-other{
+  flex: 5;
+}
+.address-other .address-name{
+  margin-bottom: 10rpx;
+}
+address-info .address-tel{
+  flex: 2;
+}

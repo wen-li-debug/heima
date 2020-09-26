@@ -1,0 +1,16 @@
+
+<view class="goodDetail">
+  <block wx:for="{{goods}}" wx:key="goods_id"> 
+    <view class="goodDetail-item">
+      <navigator url="/pages/goodDetail/goodDetail?goods_id={{item.goods_id}}">
+        <view class="goodDetail-img">
+          <image src="{{item.goods_small_logo || 'https://ww1.sinaimg.cn/large/007rAy9hgy1g24by9t530j30i20i2glm.jpg'}}" mode="widthFix"></image>
+        </view>
+        <view class="goodDetail-content">
+          <view class="title">{{item.goods_name}}</view>
+          <view class="price">￥{{item.goods_price}}</view>
+        </view>
+      </navigator>
+    </view>
+  </block>
+</view>

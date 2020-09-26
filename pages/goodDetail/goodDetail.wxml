@@ -1,0 +1,7 @@
+<!--pages/goodDetail/goodDetail.wxml-->
+<w-swiper class="d-swiper" swiperData="{{picsImg}}" widthImg="{{true}}" bind:maxClick="maxClick"/>
+
+<w-detail  goodsDetail="{{goodsDetail}}" isCollect="{{isCollect}}" bind:collectClick="collectClick"/>
+
+<w-bottom-floor bind:addCard="addCard"/>
+      

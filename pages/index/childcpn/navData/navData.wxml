@@ -1,0 +1,10 @@
+<!--pages/index/childcpn/navData/navData.wxml-->
+<view class="navData">
+  <block wx:for="{{navData}}" wx:key="name"> 
+    <view class="navData-item">
+      <navigator>
+        <image src="{{item.image_src}}" mode="widthFix"></image>
+      </navigator>
+    </view>
+  </block>
+</view>

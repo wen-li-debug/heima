@@ -1,0 +1,43 @@
+/* pages/user/childcpn/header-tap/header-tap.wxss */
+.header{
+  height: 45vh;
+  background-color: var(--backgroundColor);
+  position: relative;
+}
+.header .header-login{
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%);
+  background-color: green;
+  border-radius: 12rpx;
+}
+.header .header-login button {
+  width: 100%;
+  color: #fff;
+}
+.header-info{
+  overflow: hidden;
+  position: relative;
+}
+.header-info .header-info-img{
+  height: 45vh;
+  filter: blur(7rpx);
+}
+.header-other{
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%);
+}
+.header-other image{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+}
+.header-other .name{
+  text-align: center;
+  font-size: 32rpx;
+  margin-top: 30rpx;
+}
+

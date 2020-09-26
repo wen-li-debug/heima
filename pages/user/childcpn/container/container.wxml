@@ -1,0 +1,34 @@
+<!--pages/user/childcpn/container/container.wxml-->
+<view class="container">
+  <view class="container-info">
+    <view class="container-other1">
+      <block wx:for="{{collect}}">
+        <navigator url="/pages/collect/collect?type={{index + 1}}" class="item">
+          <view>{{item.num}}</view>
+          <view>{{item.title}}</view>
+        </navigator>
+      </block>
+    </view>
+    <view class="container-other2">
+      <view class="container-order">我的订单</view>
+      <view class="order">
+        <block wx:for="{{order}}">
+          <navigator url="/pages/order/order?type={{index + 1}}" class="order-item">
+              <view class="{{item.icon}}"></view>
+              <view>{{item.title}}</view>
+          </navigator>
+        </block>
+      </view>
+    </view>
+    <view class="container-adder  font">
+      收藏地址管理
+    </view>
+    <view class="container-other3 font">
+      <view>联系客服</view>
+      <view>400-618-4000</view>
+    </view>
+    <view class="container-other4 font">意见反馈</view>
+    <view class="container-other5 font">关于我们</view>
+    <view class="container-other6 font">把应用推荐给其他人</view>
+  </view>
+</view>

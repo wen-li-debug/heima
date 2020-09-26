@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "收藏",
+  "usingComponents": {
+    "w-contral": "/components/contral/w-contral",
+    "w-context": "./childcpn/context/w-context",
+    "w-cartDetail": "../../pages/cart/childcpn/cartDetail/cartDetail"
+  }
+}

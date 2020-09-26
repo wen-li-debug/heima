@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "w-contral": "/components/contral/w-contral"
+  }
+}

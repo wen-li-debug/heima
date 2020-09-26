@@ -1,0 +1,19 @@
+@import './styles/iconfont.wxss';
+
+page, view, swiper, swiper-item, navigation, image{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+/* 设置全局变量 */
+
+page {
+  /* 定义颜色 */
+  --backgroundColor: #ff5777;
+  /* 定义字体大小 */
+  font-size: 28rpx;
+}
+image {
+  width: 100%;
+}

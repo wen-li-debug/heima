@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "商品列表",
+  "enablePullDownRefresh":true,
+  "backgroundTextStyle": "dark",
+  "usingComponents": {
+    "w-searchInput": "/components/searchInput/searchInput",
+    "w-contral": "/components/contral/w-contral",
+    "w-goodDetail": "./childcpn/goodDetail/goodDetail"
+  }
+} 

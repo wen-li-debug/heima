@@ -1,0 +1,43 @@
+/* pages/cart/childcpn/bottomTap/bottom-tap.wxss */
+.bottom-tap{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  background-color: #fff;
+  border-top: 1px solid #666;
+}
+
+.check{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-quan{
+  flex: 3;
+  display: flex;
+  align-items: center;
+}
+.bottom-count{
+  margin-top: 10rpx;
+  margin-right: 10rpx;
+  flex: 1;
+}
+.bottom-other{
+  flex: 2;
+}
+.bottom-other .price{
+  color: var(--backgroundColor);
+}
+.bottom-other .yun{
+  font-size: 24rpx;
+}
+.bottom-total{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+  background-color: var(--backgroundColor);
+}

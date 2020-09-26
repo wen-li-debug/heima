@@ -1,0 +1,12 @@
+/* pages/index/childcpn/navData/navData.wxss */
+.navData{
+  display: flex;
+  padding: 20rpx;
+}
+
+.navData .navData-item{
+  flex:1;
+}
+.navData .navData-item image{
+  width: 100%;
+}

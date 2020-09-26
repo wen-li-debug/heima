@@ -1,0 +1,16 @@
+/* pages/category/childcpn/leftCategory/leftCartegory.wxss */
+.scroll{
+  height: 100%;
+  background-color: #eee;
+}
+.leftCateItem{
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+}
+.active{
+  color: var(--backgroundColor);
+  font-weight: 700;
+  border-left: 6rpx solid red;
+  background-color: #fff;
+}

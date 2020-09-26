@@ -1,0 +1,9 @@
+<view class="home">
+  <w-searchInput />
+
+  <w-swiper swiperData="{{swiperData}}"/>
+
+  <w-navData navData="{{navData}}"/>
+
+  <w-floorData floorData="{{floorData}}" />
+</view>

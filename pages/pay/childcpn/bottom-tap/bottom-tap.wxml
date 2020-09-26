@@ -1,0 +1,10 @@
+<view class="bottom-tap">
+  <view class="bottom-count">
+  合计:
+  </view>
+  <view class="bottom-other">
+    <view class="price">￥:{{totalPrice}}</view>
+    <view class="yun">包含运费</view>
+  </view>
+  <view class="bottom-total" bind:tap="colseClick">支付({{totalCount}})</view>
+</view>

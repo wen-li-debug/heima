@@ -1,0 +1,21 @@
+<!--pages/goodDetail/childcpn/bottom-floor/bottom-floor.wxml-->
+<view class="bottom">
+  <view class="floor-item">
+    <view class="iconfont icon-kehu"></view>
+    <view>客服</view>
+    <button open-type="contact" size="mini"></button>
+  </view> 
+  <view class="floor-item">
+    <view class="iconfont icon-fenxiang"></view>
+    <view>分享</view>
+    <button open-type="share" size="mini"></button>
+  </view> 
+  <view class="floor-item">
+   <navigator url="/pages/cart/cart" open-type="switchTab">
+    <view class="iconfont icon-gouwuche"></view>
+    <view>购物车</view>
+   </navigator>
+  </view>
+  <view class="floor-cart" bind:tap="addCard">加入购物车</view>
+  <view class="floor-buy">立即购买</view>
+</view>

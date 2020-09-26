@@ -1,0 +1,10 @@
+/* pages/collect/childcpn/context/w-context.wxss */
+.context {
+  display: flex;
+}
+.item{
+  padding: 10rpx 10rpx;
+  margin: 10rpx 20rpx;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}

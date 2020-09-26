@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "w-searchInput": "/components/searchInput/searchInput",
+    "w-left-category": "./childcpn/leftCategory/leftCategory",
+    "w-right-category": "./childcpn/rightCategory/rightCategory"
+
+  }
+}

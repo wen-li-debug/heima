@@ -1,0 +1,6 @@
+<!--components/searchInput/searchInput.wxml-->
+<view class="searchInput">
+  <navigator url="/pages/search/search" class="searchInput-nav" bind:tap="searchClick">
+    搜索
+  </navigator>
+</view>

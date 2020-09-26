@@ -1,0 +1,8 @@
+/* pages/goodDetail/goodDetail.wxss */
+
+page{
+  padding-bottom: 90rpx;
+}
+.d-swiper swiper {
+  height: 60vw;
+}

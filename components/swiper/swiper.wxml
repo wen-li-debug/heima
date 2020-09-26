@@ -1,0 +1,12 @@
+<!--components/swiper/swiper.wxml-->
+  <swiper class="swiper"
+          indicator-dots
+          indicator-active-color="#666"
+          autoplay
+          circular
+          interval="3000"
+          duration="300">
+    <swiper-item wx:for="{{swiperData}}" wx:key="goods_id" bind:tap="maxImgClick" data-url="{{item.pics_big}}">
+        <image class="swiper-img {{widthImg ? 'width' : ''}}" src="{{item.image_src || item.pics_big}}" mode="widthFix"></image>
+    </swiper-item>
+  </swiper>

@@ -1,0 +1,5 @@
+<!--pages/goodList/goodList.wxml-->
+<w-searchInput />
+<w-contral titles="{{titles}}" bind:handlecontral="handlecontral"/>
+
+<w-goodDetail goods="{{goods}}"/>

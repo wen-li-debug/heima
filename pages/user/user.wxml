@@ -1,0 +1,4 @@
+<!--pages/user/user.wxml-->
+<w-header-tap userInfo="{{userInfo}}"/>
+
+<w-container />

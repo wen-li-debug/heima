@@ -1,0 +1,41 @@
+/* pages/goodDetail/w-detail/w-detail.wxss */
+@import '/styles/iconfont.wxss';
+
+.detail .detail-content{
+  padding: 10rpx 15rpx;
+  border-bottom: 10rpx solid #eee;
+}
+
+.detail .detail-content .price{
+  color: var(--backgroundColor);
+  font-size: 35rpx;
+  font-weight: 700;
+  margin-bottom: 20rpx;
+}
+.detail .other{
+  display: flex;
+}
+.other .name{
+  flex: 6;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  padding-right: 20rpx;
+  border-right: 1px solid #666;
+}
+.other .collect-item{
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.collect-item .icon-shoucang1{
+  color: orangered;
+}
+.goods_info .goods_img{
+  color: var(--backgroundColor);
+  font-size: 35rpx;
+  padding: 20rpx  10rpx;
+  font-weight: 700;
+}

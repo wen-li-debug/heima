@@ -1,0 +1,26 @@
+<!--pages/cart/childcpn/cartDetail/cartDetail.wxml-->
+<view class="cartDetail">
+  
+  <view class="cart-other">
+    <view class="check" wx:if="{{!isShow}}">
+      <checkbox-group bind:tap="checkedClick" data-goods_id="{{cart.goods_id}}">
+        <checkbox checked="{{cart.checked}}"></checkbox>
+      </checkbox-group>
+    </view>
+    <view class="cart-img">
+      <image src="{{cart.pics_big}}" mode="widthFix"></image>
+    </view>
+    <view class="cart-info">
+      <view class="cart-name">{{cart.goods_name}}</view>
+      <view class="cart-nums">
+        <view class="cart-price">￥{{cart.price}}</view>
+          <view class="cart-count">
+            <view class="cart-jian" bind:tap="editNum" data-id="{{cart.goods_id}}" data-num="{{-1}}"  wx:if="{{!isShow}}">-</view>
+            <view class="cart-num" wx:if="{{!isShow}}">{{cart.num}}</view>
+            <view class="cart-num {{isShow ? 'active': ''}} {{isCollect ? 'collect': ''}}" wx:if="{{isShow}}">x{{cart.num}}</view>
+            <view class="cart-jia" bind:tap="editNum" data-id="{{cart.goods_id}}" data-num="{{1}}" wx:if="{{!isShow}}">+</view>
+          </view>
+        </view>
+    </view>
+  </view>
+</view>

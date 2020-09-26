@@ -1,0 +1,13 @@
+<!--pages/user/childcpn/header-tap/header-tap.wxml-->
+<view class="header">
+  <view class="header-login" wx:if="{{!userInfo.nickName}}">
+    <button type="primary" plain bind:tap="loginClick">登录</button>
+  </view>
+  <view class="header-info" wx:else>
+    <image class="header-info-img" src="{{userInfo.avatarUrl}}" ></image>
+    <view class="header-other">
+      <image src="{{userInfo.avatarUrl}}" mode="widthFix"></image>
+    <view class="name">{{userInfo.nickName}}</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,39 @@
+/* pages/cart/childcpn/bottomTap/bottom-tap.wxss */
+.bottom-tap{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  background-color: #fff;
+  border-top: 1px solid #666;
+  justify-content: flex-end;
+  align-items: center;
+  height: 90rpx;
+}
+
+.item{
+  flex: 2;
+}
+.bottom-content{
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-count{
+  margin-right: 20rpx;
+}
+.bottom-total{
+  background-color: var(--backgroundColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 180rpx;
+  margin-left: 75rpx;
+}
+.price{
+  color: var(--backgroundColor);
+  font-size: 30rpx;
+}

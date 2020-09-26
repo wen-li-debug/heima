@@ -1,0 +1,18 @@
+/* pages/category/category.wxss */
+page{
+  height: 100%;
+}
+.cate{
+  height: 100%;
+}
+
+.cate_container{
+  height: calc(100vh - 70rpx);
+  display: flex;
+}
+.cate_container w-left-category{
+  width: 30%;
+}
+.cate_container w-right-category{
+  width: 70%;
+}

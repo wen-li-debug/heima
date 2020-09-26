@@ -1,0 +1,2 @@
+<!--pages/order/order.wxml-->
+<w-contral titles="{{titles}}" />

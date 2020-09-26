@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "黑马优购",
+  "usingComponents": {
+    "w-searchInput": "/components/searchInput/searchInput",
+    "w-swiper": "/components/swiper/swiper",
+    "w-navData": "./childcpn/navData/navData",
+    "w-floorData": "./childcpn/floorData/floorData"
+  }
+}

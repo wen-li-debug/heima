@@ -1,0 +1,12 @@
+<!--pages/collect/collect.wxml-->
+<w-contral titles="{{titles}}"/>
+
+<w-context />
+
+<block wx:for="{{collect}}" wx:key="goods_id">
+  <w-cartDetail cart="{{item}}" 
+              bind:checkedClick="checkedClick"
+              bind:editNumClick="editNumClick"
+              isShow="{{true}}"
+              isCollect="{{true}}"/>
+</block>

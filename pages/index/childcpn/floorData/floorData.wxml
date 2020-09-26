@@ -1,0 +1,6 @@
+<!--pages/index/childcpn/floorData/floorData.wxml-->
+<view class="floor">
+ <block wx:for="{{floorData}}" wx:key="floor_title">
+  <w-floor-item floorItem="{{item}}" />
+ </block>
+</view>

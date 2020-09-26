@@ -1,0 +1,13 @@
+<!--pages/index/childcpn/floorItem/floorItem.wxml-->
+<view class="floorItem">
+  <view class="floor-tilte">
+    <image src="{{floorItem.floor_title.image_src}}" mode="widthFix"></image>
+  </view>
+  <view class="floor-img">
+    <block wx:for="{{floorItem.product_list}}" wx:key="name">
+      <navigator url="item.navigator_url">
+        <image src="{{item.image_src}}" mode="{{index === 0 ? 'widthFix' : 'scaleToFill'}}"></image>
+      </navigator>
+    </block>
+  </view>
+</view>
