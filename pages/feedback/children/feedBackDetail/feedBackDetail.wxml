@@ -1,0 +1,29 @@
+<!--pages/feedback/children/feedBackDetail/feedBackDetail.wxml-->
+<view class="feedBack">
+  <view class="feed-type">
+    问题的种类
+  </view>
+  <view class="feed-other">
+    <view class="feed-item">功能建议</view>
+    <view class="feed-item">购买遇见的问题</view>
+    <view class="feed-item">性能问题</view>
+    <view class="feed-item">其他</view>
+  </view>
+  <view class="feed-textarea">
+    <textarea placeholder="请描述下你的问题" id="" cols="30" rows="10"></textarea>
+    <view class="feed-tu">
+      <button class="feed-btn" bind:tap="handleImgClick">+</button>
+      <block wx:for="{{urlImg}}" wx:key="size">
+        <view class="feed-url"  bind:tap="handleRemoveClick" data-index="{{index}}">
+          <w-ulImg img="{{item}}"/>
+        </view>
+      </block>
+    </view>
+  </view>
+  <view class="feed-sub">
+    <button type="warn" class="feed-sub-btn">
+      <icon type="success_no_circle" size="23" color="white" />
+      提交
+    </button>
+  </view>
+</view>

@@ -1,2 +1,6 @@
 <!--pages/feedback/feedback.wxml-->
-<text>pages/feedback/feedback.wxml</text>
+<w-contral titles="{{titles}}"/>
+
+<w-feed-back-detail bind:handleImgClick="handleImgClick"
+                    urlImg="{{urlImg}}"
+                    bind:handleRemoveClick="handleRemoveClick"/>

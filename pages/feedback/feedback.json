@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText": "用户反馈",
+  "usingComponents": {
+    "w-contral": "/components/contral/w-contral",
+    "w-feed-back-detail": "./children/feedBackDetail/feedBackDetail"
+  }
 }

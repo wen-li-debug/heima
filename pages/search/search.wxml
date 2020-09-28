@@ -1,12 +1,12 @@
 <!--pages/search/search.wxml-->
 <view class="search">
   <view class="search-header">
-    <input type="text" placeholder="请输入内容" class="input" bind:input="inputClick"></input>
-    <button class="btn" size="mini">取消</button>
+    <input value="{{isValue}}" type="text" placeholder="请输入内容" class="input" bind:input="inputClick"></input>
+    <button hidden="{{!isShow}}" class="btn" size="mini" bind:tap="handleBtnClick">取消</button>
   </view>
   <block wx:for="{{goodsDetail}}" wx:key="goods_id">
-    <view class="search-content">
-      <view class="item" >{{item.goods_name}}</view>
-    </view>
+    <navigator class="search-content" url="/pages/goodDetail/goodDetail?goods_id={{item.goods_id}}">
+        <view class="item" >{{item.goods_name}}</view>
+    </navigator>
   </block>
 </view>

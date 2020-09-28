@@ -1,0 +1,7 @@
+<!--pages/feedback/children/ulImg/ulImg.wxml-->
+<view class="ulImg">
+  <image src="{{img.path}}"></image>
+  <view>
+    <icon type="clear" color="red"  />
+  </view>
+</view>

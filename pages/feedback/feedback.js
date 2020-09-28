@@ -5,7 +5,35 @@ Page({
    * 页面的初始数据
    */
   data: {
+    titles:['体验问题','商品,商家投诉'],
+    //加载的图片
+    urlImg: []
+  },
 
+  handleImgClick(){
+    //打开图片api
+    wx.chooseImage({
+      //同时选中图片的数量
+      count: 9,
+      //图片的格式  原图， 压缩
+      sizeType: ['original','compressed'],
+      //图片的来源  相册，照相机
+      sourceType: ['album','camera'],
+      success: (result)=>{
+        this.setData({
+          urlImg: [...this.data.urlImg,...result.tempFiles]
+        })
+      }
+    })
+  },
+  handleRemoveClick(event){
+    let {index} = event.detail;
+    console.log(index)
+    let urlImg = this.data.urlImg;
+    urlImg.splice(index,1)
+    this.setData({
+      urlImg
+    })
   },
 
   /**

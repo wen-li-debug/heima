@@ -1,0 +1,13 @@
+/* pages/feedback/children/ulImg/ulImg.wxss */
+.ulImg{
+  position: relative;
+}
+.ulImg image{
+  width: 90rpx;
+  height: 90rpx;
+}
+.ulImg icon{
+  position: absolute;
+  top: -33rpx;
+  right: -33rpx;
+}
